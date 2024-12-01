@@ -6,7 +6,7 @@ import java.util.Random;
 public class Chacter {
     public static void main(String[] args) {
 
-        String[] roles = {"勇者", "法师", "弓箭手", "骑士", "牧师", "盗贼", "战士", "术士"};
+        String[] roles = {"朱元璋", "李善长", "徐达", "常遇春", "李文忠", "朱全忠", "常茂", "李景隆"};
 
 
         Scanner scanner = new Scanner(System.in);

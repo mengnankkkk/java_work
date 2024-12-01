@@ -8,9 +8,9 @@ public class ChatServer {
     private static Set<PrintWriter> clientWriters = new HashSet<>();
 
     public static void main(String[] args) throws IOException {
-        // 创建ServerSocket并监听端口
+
         ServerSocket serverSocket = new ServerSocket(9090);
-        System.out.println("Server started...");
+        System.out.println("服务启动...");
 
         try {
             while (true) {
