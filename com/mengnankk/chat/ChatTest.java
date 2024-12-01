@@ -26,12 +26,12 @@ public class ChatTest {
 
                         String clientMessage = "Client " + Thread.currentThread().getName() + " message";
                         out.println(clientMessage);
-                        System.out.println("Sent: " + clientMessage);
+                        System.out.println("发送: " + clientMessage);
 
 
                         String serverMessage = in.readLine();
                         if (serverMessage != null) {
-                            System.out.println("Received: " + serverMessage);
+                            System.out.println("收到: " + serverMessage);
                         }
 
                         socket.close();
